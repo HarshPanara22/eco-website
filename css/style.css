@@ -5378,10 +5378,10 @@ a:hover, a:active, a:focus, img{
 	position: fixed;
 	z-index: 2001;
 	background: #111111;
-	max-width:400px;
+	max-width:600px;
 	height: 100%;
 	top:0;
-	right:-400px;
+	right:-600px;
 }
 
 #de-extra-wrap .de-extra-content{
@@ -5394,7 +5394,7 @@ a:hover, a:active, a:focus, img{
 }
 
 .de-flex-wrap{
-	background: 
+	background: ;
 	display: flex;
 	justify-content: space-between;
 }
@@ -7665,4 +7665,8 @@ display:table;
 
 .stop-font{
 	font-family: StopMotion;
+}
+
+.social a{
+	margin:10px;
 }
