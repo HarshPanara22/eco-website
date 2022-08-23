@@ -6417,7 +6417,7 @@ transition:.5s;
 .schedule-item .sc-time {
 	font-weight:bold;
 	width: 160px;
-	padding-top: 25px;
+	padding-top: 0px;
 	font-size:14px;
 }
 .schedule-item .sc-pic {
@@ -6443,10 +6443,25 @@ transition:.5s;
 	font-weight: normal;
 	font-size: 12px;
 }
-.schedule-item .sc-info {
+.schedule-item .sc-info.width_1 {
+	float: none;
+	display: inline-block;
+	width: 80%;
+}
+.schedule-item .sc-info.width_2 {
 	float: none;
 	display: inline-block;
 	width: 40%;
+}
+.schedule-item .sc-info.width_3 {
+	float: none;
+	display: inline-block;
+	width: 26.6%;
+}
+.schedule-item .sc-info.width_4 {
+	float: none;
+	display: inline-block;
+	width: 20%;
 }
 .schedule-item .sc-info h3 {
 	font-size:18px !important;
